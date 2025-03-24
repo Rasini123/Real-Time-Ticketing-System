@@ -1,0 +1,9 @@
+{
+  "name": "spandana",
+  "location": "colombo",
+  "price": 2000.0,
+  "totalTickets": 2000,
+  "ticketReleaseRate": 5,
+  "customerRetrievalRate": 5,
+  "maxTicketPoolCapacity": 200
+}

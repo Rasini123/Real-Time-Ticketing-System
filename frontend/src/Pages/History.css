@@ -1,0 +1,108 @@
+main .table {
+    height: 90vh;
+    background-color: antiquewhite;
+
+    background-clip: blur(7px);
+    box-shadow: 0.4rem .8rem rgb(0, 0, 0);
+    border-radius: 8rem;
+    overflow: hidden;
+}
+
+.table_header{
+    width: 100%;
+    height: 10%;
+    background-color: azure;
+    padding: 8rem 1 em;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.table_body {
+
+    max-height: calc(89% - 8rem);
+    background-color: beige;
+
+    margin: 0.5rem 8rem ;
+    border-radius: .6rem;
+
+    overflow: auto;
+}
+
+.table_body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.table_body::-webkit-scrollbar-thumb{
+    border: .5rem;
+    background-color: rgb(0, 0, 0);
+    visibility: hidden;
+}
+
+.table_body:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+
+table {
+    width: 100%;
+}
+
+td img {
+    width: 36px;
+    height: 36px;
+    margin-right: .5rem;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    Left: 0;
+    background-color: beige;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}
+
+tbody tr:hover {
+    background-color: rgb(59, 50, 50);
+    color:rgb(145, 231, 148);
+}
+
+.status {
+    background-color: brown;
+    padding: 4rem 0;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.status.delivered {
+    background-color: greenyellow;
+    color: #902525;
+}
+
+.status.cancelled {
+    background-color: aquamarine;
+    color: #57b98b;
+}
+
+
+.status.shipped {
+    background-color: blue;
+
+}
+
+@media (max-width: 1000px){
+    td:not(:first of type) {
+        min-width: 12.1rem;
+    }
+}

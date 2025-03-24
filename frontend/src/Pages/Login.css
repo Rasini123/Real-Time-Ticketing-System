@@ -1,0 +1,75 @@
+/* Login container styling */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the heading */
+.login-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form container styling */
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Input field styling */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Focus effect on input fields */
+.input-field:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Select dropdown container */
+.select-container {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Styling for the select dropdown */
+.role-select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Submit button styling */
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Submit button hover effect */
+.submit-btn:hover {
+    background-color: #0056b3;
+}

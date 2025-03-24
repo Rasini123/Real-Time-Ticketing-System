@@ -1,0 +1,36 @@
+.pool-data-container {
+    padding: 100px;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pool-data-container h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: #d2d03b;
+}
+
+.pool-data-display {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.pool-data-display button {
+    width: 100px;
+    height: 38px;
+    background: rgb(245, 31, 31);
+    color: white;
+}
+
+.pool-data-display p {
+    margin: 5px 0;
+}
+
+.pool-data-display strong {
+    color: #151427;
+}

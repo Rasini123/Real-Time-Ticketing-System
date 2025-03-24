@@ -1,0 +1,7 @@
+Event Name: spandana
+Venue Location: colombo
+Ticket Price: 2000.0
+Total Tickets Available: 2000
+Ticket Release Rate: 5
+Customer Retrieval Rate: 5
+Maximum Ticket Pool Capacity: 200
